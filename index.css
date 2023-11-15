@@ -1,26 +1,33 @@
+/* Establece la fuente y el color de fondo para todo el cuerpo del documento */
 body {
     font-family: Arial, sans-serif;
     background-color: #F5F5F5; /* Este es un color de fondo sugerido por Material Design */
 }
 
+/* Establece el color de fondo para la barra de navegación */
 nav {
-    background-color: #84FFFF; /* Este es un color sugerido por Material Design para la barra de navegación */
+    background-color: #84FFFF; /* Este es un color de Material Design para la barra de navegación */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
+/* Establece el color de fondo para el pie de página */
 footer {
     background-color: #3F51B5; /* Este es un color sugerido por Material Design para el pie de página */
 }
 
+/* Añade un margen alrededor de las imágenes */
 img {
     margin: 10px;
 }
 
+/* Establece el tamaño y la forma del logo */
 .logo {
     border-radius: 50%;
     width: 100px;
     height: 100px;
 }
 
+/* Establece el diseño de la barra de navegación */
 .logo-nav {
     display: flex;
     justify-content: space-between;
@@ -28,24 +35,32 @@ img {
     background-color: #84FFFF;
 }
 
+/* Establece el diseño de la lista de enlaces en la barra de navegación */
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #84FFFF; /* azul agua marina claro para el fondo del menú */
     display: flex;
     gap: 10px;
 }
 
+/* Establece el diseño de los enlaces en la barra de navegación */
 nav li a {
     display: block;
-    color: white;
+    color: #ADD8E6; /* Azul claro para el texto */
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family: Arial, sans-serif;
+    font-family: 'Verdana', sans-serif; /* Fuente Verdana para los enlaces del menú */
     font-size: 20px;
-    background-color: #4CAF50;
+    background-color: #20B2AA; /* Verde mar claro para el fondo */
     border-radius: 15px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+nav li a:hover {
+    background-color: #ADD8E6;
+    color: #20B2AA;
 }
