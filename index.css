@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5; /* Este es un color de fondo sugerido por Material Design */
+}
+
+nav {
+    background-color: #84FFFF; /* Este es un color sugerido por Material Design para la barra de navegación */
+}
+
+footer {
+    background-color: #3F51B5; /* Este es un color sugerido por Material Design para el pie de página */
+}
+
+img {
+    margin: 10px;
+}
+
+.logo {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.logo-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #84FFFF;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    gap: 10px;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    background-color: #4CAF50;
+    border-radius: 15px;
+}
