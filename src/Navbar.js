@@ -1,6 +1,6 @@
-// Navbar.js
 import React from 'react';
 import { Link } from 'react-router-dom';
+import shoppingCartIcon from '../images/shopping-cart.png'; // Importa tu icono del carrito de compras
 
 const Navbar = () => {
     return (
@@ -15,6 +15,10 @@ const Navbar = () => {
                 <li><Link to="/servicios">Servicios</Link></li>
                 <li><Link to="/contacto">Contacto</Link></li>
             </ul>
+
+            <div className="cart-icon">
+                <img src={shoppingCartIcon} alt="Icono de carrito de compras" />
+            </div>
         </nav>
     );
 }

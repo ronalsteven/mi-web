@@ -10,11 +10,6 @@ nav {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-/* Establece el color de fondo para el pie de página */
-footer {
-    background-color: #3F51B5; /* Este es un color sugerido por Material Design para el pie de página */
-}
-
 /* Añade un margen alrededor de las imágenes */
 img {
     margin: 10px;
@@ -63,4 +58,20 @@ nav li a {
 nav li a:hover {
     background-color: #ADD8E6;
     color: #20B2AA;
+}
+
+.footer {
+    background-color: #84FFFF; /* Este es un tono muy claro de cian */
+    color: #F5F5F5; /* Este es un color de fondo sugerido por Material Design */
+    padding: 20px;
+    text-align: center;
+}
+
+.footer a {
+    color: #F5F5F5; /* Este es un color de fondo sugerido por Material Design */
+}
+
+.cart-icon img {
+    width: 50px;
+    height: 50px;
 }
